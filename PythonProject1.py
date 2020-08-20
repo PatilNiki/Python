@@ -7,7 +7,7 @@ pyttsx3.speak("What should I do for you?")
 while(True):
     pyttsx3.speak("Enter a request")
     request=input("Enter a request: ")
-    print(request)
+    #print(request)
     
     if((("open" in request) or ("run" in request) or ("start" in request)) and (("chrome" in request) or ("browser" in request) or ("internet" in request)) and (("don't" not in request) or("do not" not in request))):
         pyttsx3.speak("Opening chrome!!")
