@@ -43,4 +43,7 @@ while(True):
         pyttsx3.speak("closing program!!")
         pyttsx3.speak("Thank You")
         break;
+    else:
+        pyttsx3.speak("invalid request!!")
+        print("Invalid request!!")
 
